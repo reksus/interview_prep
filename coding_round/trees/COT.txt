@@ -1,0 +1,4 @@
+observation:
+- tree can constructed with : 
+    inorder + (pre | post | level)
+can't be constructed if inorder is not there

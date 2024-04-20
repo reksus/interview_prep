@@ -1,0 +1,24 @@
+Google Docs:
+Using Google Drawings for Virtual Technical Interviews
+https://www.youtube.com/watch?v=UUhOzRz2eQY
+
+
+Read interview doc every week.
+
+
+shift to meddsyn:
+- automated deployment
+- github taggin and versioning
+- fast parsing
+- permissions
+
+shift to delpe
+- cookiecutter + token auth + docker
+- equifax policies
+
+shift to cp
+- graphs
+    - trajans_scc_ap_bridges
+    - euler tour
+    - BFS
+    - william fisets

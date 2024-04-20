@@ -1,0 +1,33 @@
+● Ability to walk the interviewer through all of the elements of the application that would have to exist and be pre-defined before APIs can work 
+● Demonstrate an ability to: 
+○ Parse requirements 
+○ Propose meaningful functionality 
+○ Design a neat and clean data model 
+○ Specify in detail the concepts of the system architecture 
+■ Security (internal/external) 
+■ Users/Audience 
+■ Reliability (Consistency of response) 
+■ Recovery (Crash in-between and restart from last transactions) 
+careers.google.com
+■ Monitoring/Logging (In case of problems occurring at different APIs) ● Demonstrated experience in scaling the systems for performance for both database and business suites 
+
+Familiarity with general concepts of 
+- ERP architecture, 
+    - understand common modules
+        - Finance
+        - HR 
+        - Supply Chain
+        - CRM
+- Object Oriented 
+- data modeling and 
+    - ER Diagram
+    - UML
+    - Relational DB design
+- transactional systems 
+    - ACID
+    - OLTP
+    - Batch Processing
+
+Problems for exercise:
+Examples of System Design Question ( Design an Airline Ticket Booking system with Data Model, Design a Library Management System with Data Model ) 
+

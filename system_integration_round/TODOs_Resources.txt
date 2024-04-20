@@ -1,0 +1,77 @@
+System Integration 
+https://www.torocloud.com/blog/a-comprehensive-guide-to-integration-patterns-in-modern-business-systems
+https://www.mulesoft.com/resources/esb/top-five-data-integration-patterns
+
+how to prepare?
+Preparing for the System Integration Knowledge/Ability portion of a Google interview involves understanding various aspects of integrating systems, including third-party systems, middleware implementations, security considerations, networking, web service authorization/authentication, protocols, SLAs, technology considerations, interoperability, scalability, integration technologies, web standards, and middleware. Here's how you can prepare:
+
+1. **Study Integration Concepts**:
+   - Familiarize yourself with different integration patterns such as point-to-point, publish-subscribe, and message brokering.
+   - Understand the challenges and benefits of integrating third-party systems, including data consistency, security, and scalability.
+
+2. **Learn about Middleware Implementations**:
+   - Study different middleware technologies such as message queues, ESBs (Enterprise Service Buses), and API gateways.
+   - Understand their roles in facilitating communication between different systems and handling integration tasks.
+
+3. **Understand Integration Flow**:
+   - Learn about inbound and outbound integration flows and how data moves between systems.
+   - Study security considerations such as authentication, authorization, and encryption (SSL/TLS) for web services.
+   - Understand networking concepts relevant to system integration, including firewalls, proxies, and load balancers.
+
+4. **Consider SLAs, Technology Considerations, Interoperability, and Scalability**:
+   - Familiarize yourself with Service Level Agreements (SLAs) and how they impact system integration projects.
+   - Study technology considerations such as compatibility, performance, and reliability.
+   - Understand interoperability challenges and how different systems can communicate effectively.
+   - Learn about scalability considerations to ensure that integrated systems can handle increasing loads.
+
+5. **Explore Integration Technologies and Standards**:
+   - Study common integration technologies such as RESTful APIs, SOAP web services, and messaging protocols like MQTT or AMQP.
+   - Learn about web standards such as JSON, XML, and WSDL (Web Services Description Language).
+   - Understand how these technologies facilitate interoperability between different systems.
+
+6. **Practice Problem-Solving**:
+   - Work on case studies or practice scenarios that involve designing and implementing system integration solutions.
+   - Practice analyzing integration requirements, identifying potential challenges, and proposing solutions.
+   - Participate in mock interviews or coding exercises to simulate real-world integration scenarios.
+
+7. **Stay Updated**:
+   - Keep yourself updated with the latest trends and advancements in system integration, middleware technologies, and security best practices.
+   - Follow industry blogs, attend conferences, and participate in online forums to stay informed about emerging technologies and techniques.
+
+By following these steps and actively engaging in learning and practice, you can effectively prepare for system integration questions in a Google interview and demonstrate your knowledge and ability in this area.
+
+
+how google doc coding works?
+
+How do you get System A to talk with System B so that they work seamlessly
+with other internal applications, such as expense reporting or payroll?
+
+To get System A to talk with System B seamlessly and work with other internal applications, you need to establish a communication channel between them and define a set of rules (protocol) for data exchange. The communication system typically consists of five components: message, sender, receiver, transmission medium, and protocol[1].
+
+1. **Message**: This is the data or information that needs to be transmitted between System A and System B. It can be in various forms, such as text, audio, video, or any other digital format.
+2. **Sender**: This is the system (System A) that initiates the data transmission. It can be a computer, server, or any other digital device that generates the data.
+3. **Receiver**: This is the system (System B) that receives the data. It can be a computer, server, or any other digital device that processes the received data.
+4. **Transmission Medium**: This is the physical or wireless connection that enables the data transfer between System A and System B. It can be a wired connection, such as Ethernet or fiber optic cable, or a wireless connection, such as Wi-Fi or Bluetooth.
+5. **Protocol**: This is the set of rules that governs the data exchange between System A and System B. It defines how the data is formatted, transmitted, and received, ensuring that both systems can understand and process the data correctly.
+
+To establish a seamless communication between System A and System B, you need to:
+
+1. **Identify the message format**: Define the data format that both systems can understand and process. This can be a standard format, such as JSON or XML, or a custom format that you define specifically for your application.
+2. **Choose the transmission medium**: Select the appropriate transmission medium based on your requirements, such as data transfer speed, distance, and security.
+3. **Define the protocol**: Establish a set of rules that govern the data exchange between System A and System B. This can include data encoding, error handling, flow control, and security measures.
+4. **Implement the protocol**: Integrate the protocol into both System A and System B, ensuring that they can communicate with each other using the defined rules.
+5. **Test the communication**: Verify that System A and System B can communicate seamlessly and process the data correctly.
+
+By following these steps, you can ensure that System A and System B can communicate seamlessly and work with other internal applications, such as expense reporting or payroll.
+
+Citations:
+[1] https://www.geeksforgeeks.org/components-of-data-communication-system/
+[2] https://en.wikipedia.org/wiki/Communication_protocol
+[3] https://byjus.com/jee/communication-systems/
+[4] https://www.geeksforgeeks.org/data-communication-definition-components-types-channels/
+[5] https://testbook.com/physics/electronic-communication-systems
+
+
+
+
+
