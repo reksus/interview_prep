@@ -1,10 +1,4 @@
-18. diameter
-20 print all root -> left paths
-    23 existence of path with a given sum
-22 max path sum b/w any 2 nodes
-28. LCA of any 2 nodes
-30. construct with inorder and level order?
-31. printing all ancestors of a node in BT
-33. all vertical sum
-35. 'I' - internal node, 'L' - leaf node, contruct tree with preorder 'ILILL'
-36+37 fill next sibling (levelorder, recursive)
+contruction:
+- full k-array tree from preorder vals
+- build expression tree for a string like (5+3)*2 (inorder, prefix, postfix)
+

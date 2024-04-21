@@ -3,6 +3,14 @@ OBSERVATIONS:
     inorder + (pre | post | level)
 can't be constructed if inorder is not there
 
+- lca
+    subproblem is to check is to check the EXISTENCE of either node is left or right subtree
+
+what to return from the subproblem
+- diameter : height of node
+- lca: existence of node
+- max_path_sum: max sum incl the node
+
 
 
 TACTICS:
