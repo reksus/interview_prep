@@ -31,3 +31,31 @@ Familiarity with general concepts of
 Problems for exercise:
 Examples of System Design Question ( Design an Airline Ticket Booking system with Data Model, Design a Library Management System with Data Model ) 
 
+
+********
+
+Terms to be learnt
+data models
+reliability
+recovery
+monitoring
+- ERP architecture, 
+    - understand common modules
+        - Finance
+        - HR 
+        - Supply Chain
+        - CRM
+- Object Oriented 
+- data modeling and 
+    - ER Diagram
+    - UML
+    - Relational DB design
+- transactional systems 
+    - ACID
+    - OLTP
+    - Batch Processing
+
+********
+
+12 tips for optimizing database?
+https://www.developernation.net/blog/12-ways-to-optimize-sql-queries-in-database-management/

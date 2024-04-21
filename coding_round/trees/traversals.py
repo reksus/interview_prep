@@ -82,20 +82,39 @@ def postorder_iterative(root):
     return result
 
 
-def dfs(root):
+def diameter(root: TreeNode) -> int:
+
+    res = 0
+
+    def dfs(root):
+        nonlocal res
+
+        if not root:
+            return -1
+        
+        left = dfs(root.left)
+        right = dfs(root.right)
+
+        res = max(res, 2 + left + right)
+
+        return 1 + max(left, right)
     
-    dfs(root.left)
-    dfs(root.right)
-    
+    dfs(root)
+
+    return res
+        
 
 if __name__ == '__main__':
     root = TreeNode(1, TreeNode(2, TreeNode(4), TreeNode(5)), TreeNode(3, TreeNode(6), TreeNode(7)))
-    result = preorder_iterative(root)
-    print(result)
-    result = inorder_iterative(root)
-    print(result)
-    result = postorder_iterative(root)
-    print(result)
+    # result = preorder_iterative(root)
+    # print(result)
+    # result = inorder_iterative(root)
+    # print(result)
+    # result = postorder_iterative(root)
+    # print(result)
+
+    d = diameter(root)
+    print(d)
 
 
 

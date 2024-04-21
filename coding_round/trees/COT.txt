@@ -1,4 +1,11 @@
-observation:
+OBSERVATIONS:
 - tree can constructed with : 
     inorder + (pre | post | level)
 can't be constructed if inorder is not there
+
+
+
+TACTICS:
+- height of null node is -1
+    when backtracting and +1 it would become 0
+
