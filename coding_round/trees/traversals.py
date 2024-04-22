@@ -87,8 +87,12 @@ def postorder_iterative(root):
 
 
 def postorder_iterative_simpler(root: TreeNode) -> List:
+    # this is much easier to implement with n-ary tree
+    # otherwise we have to find the seq of moves L L L L in case of nary tree
+
     # almost similar to preorder but the parent node 
     # is only popped when being visited the second time
+
     stack = []
     res = []
     stack.append((root, False))  # False mean not yet visited
@@ -254,8 +258,50 @@ def top_view(root):
     dfs(root, 0)
     return res
 
+def construct_expr_tree_from_postfix_expr(expr) -> TreeNode:
+    stack = []
+    for ch in expr:
+        if ch in ['+', '-', '*', '/']:
+            node = TreeNode(ch)
+            node.right = stack.pop()
+            node.left = stack.pop()
+            stack.append(node)
+        else:
+            stack.append(TreeNode(ch))
+    return stack.pop()
 
 
+def get_postfix_expr_from_expr_tree(root) -> str:
+    if not root:
+        return ""
+    stack = [(root, False)]
+    res = []
+    while stack:
+        node, v = stack.pop()
+        if v:
+            res.append(node.data)
+        else:
+            stack.append((node, True))
+            if node.right: stack.append((node.right, False))
+            if node.left: stack.append((node.left, False))
+    return res
+        
+
+def get_infix_expr_from_expr_tree(root) -> str:
+    stack = []
+    res = []
+    curr = root
+    while stack or curr:
+        if curr:
+            stack.append(curr)
+            curr = curr.left
+        else:
+            curr = stack.pop()
+            res.append(curr.data)
+            curr = curr.right
+    return res
+
+    
 
 if __name__ == '__main__':
     root = TreeNode(1, TreeNode(2, TreeNode(4), TreeNode(5)), TreeNode(3, TreeNode(6), TreeNode(7, TreeNode(8), TreeNode(9))))
@@ -295,4 +341,10 @@ if __name__ == '__main__':
 
     # res = postorder_iterative_simpler(root)
     # print(res)
+
+    root = construct_expr_tree_from_postfix_expr("ab+e*")
+    postfix_expr = get_postfix_expr_from_expr_tree(root)
+    print(postfix_expr)
+    infix_expr = get_infix_expr_from_expr_tree(root)
+    print(infix_expr)
 
