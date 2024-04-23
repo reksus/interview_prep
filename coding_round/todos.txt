@@ -3,14 +3,14 @@
 2. Arrays
 
 3. Trees:
-- contruct
-- traversal
+- construct
+- (D) traversal
 - manipulation
-- types: binary, n-ary, tries
-- balanced binnary tree (either Red Black, AVL or Splay)
+- types: (D) binary, (D) n-ary, tries
+- balanced binnary tree (either Red Black, (D) AVL  or Splay)
 
 4. HashTable
-- implement it with an array
+- (D) implement it with an array
 
 5. Sorting
 - Mergesort
