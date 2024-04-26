@@ -1,3 +1,9 @@
+graphs/tree     39%
+array/strings   26%
+DP              12%
+Recursion       12%
+Geometry/Maths  11%
+
 1. Strings
 
 2. Arrays
@@ -17,4 +23,3 @@
     - merging coroutine
 - quicksort 
     - partition coroutine
-
