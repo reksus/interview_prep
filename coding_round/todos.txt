@@ -5,6 +5,15 @@ Recursion       12%
 Geometry/Maths  11%
 
 1. Strings
+references: 
+    - https://leetcode.com/discuss/interview-question/2001789/collections-of-important-string-questions-pattern
+- Palidrome
+- parenthesis
+- Counting of substring based on some condition
+- Check types of string
+- Sorting on String
+- Longest and shortest kind of String Problem
+
 
 2. Arrays
 
