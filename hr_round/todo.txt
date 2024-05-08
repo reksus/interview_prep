@@ -1,10 +1,2 @@
-
-cv changes:
-designation error
-remove working on mewt's card
-update linkedin link
-remove was from skills: database
-divide webserver -> webser and wsgi server
-
 example of how domain knowledge tranlated into an actual product?
 
